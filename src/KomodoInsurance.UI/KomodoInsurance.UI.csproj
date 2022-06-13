@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Developer.Data\Developer.Data.csproj" />
+    <ProjectReference Include="..\Developer.Repository\Komodo.Repository.csproj" />
+    <ProjectReference Include="..\DevTeam.Data\DevTeam.Data.csproj" />
+    <ProjectReference Include="..\DevTeam.Repository\DevTeam.Repository.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

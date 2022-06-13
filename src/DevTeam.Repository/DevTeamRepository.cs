@@ -12,4 +12,21 @@
             _devTeamDatabase.Add(devTeam);
         }
     }
+
+    public List<DevTeam> GetAllTeams()
+    {
+        return _devTeamDatabase;
+    }
+
+    public DevTeam GetTeamByID(int id)
+    {
+        foreach(DevTeam t in _devTeamDatabase)
+        {
+            if (t.ID == id)
+            {
+                return t;
+            }
+        }
+        return null;
+    }
 }
